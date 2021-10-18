@@ -1,0 +1,21 @@
+{
+  "name": "theatre",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@theatre/core": "^0.4.6"
+  },
+  "devDependencies": {
+    "@theatre/studio": "^0.4.6",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

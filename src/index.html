@@ -1,0 +1,29 @@
+<style>
+  body {
+    background: rgb(6, 143, 113);
+    margin: 0;
+  }
+
+  #box {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+    --box-size: 40px;
+  }
+
+  .boxContainer {
+    width: var(--box-size);
+    position: relative;
+  }
+
+
+</style>
+<div class="boxContainer">
+  <div id="box"></div>
+</div>
+<script type ="module" async src="index.ts"></script>
